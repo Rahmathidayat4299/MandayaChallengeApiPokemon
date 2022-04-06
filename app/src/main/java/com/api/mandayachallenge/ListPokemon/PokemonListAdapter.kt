@@ -31,8 +31,7 @@ class PokemonListAdapter(val pokemonClick: (Int) -> Unit) :
     override fun onBindViewHolder(holder: SearchViewHolder, position: Int) {
         val pokemon = pokemonList[position]
         holder.itemView.pokemonText.text = "#${position + 1} - ${pokemon.name}"
-
-//        holder.itemView.setOnClickListener { pokemonClick(position + 1) }
+        holder.itemView.setOnClickListener { pokemonClick(position + 1) }
     }
 
 

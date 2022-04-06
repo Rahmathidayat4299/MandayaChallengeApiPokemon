@@ -1,4 +1,4 @@
-package com.api.mandayachallenge
+package com.api.mandayachallenge.ui
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,6 +8,7 @@ import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.api.mandayachallenge.ListPokemon.PokemonListAdapter
 import com.api.mandayachallenge.ListPokemon.PokemonViewModel
+import com.api.mandayachallenge.R
 import kotlinx.android.synthetic.main.list_pokemon.*
 
 class ListPokemonActivity : AppCompatActivity() {
